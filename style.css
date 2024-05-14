@@ -114,7 +114,32 @@ ul li span:hover {
     background-color: rgba(255, 255, 255, 0.419); 
 }
 
-@media screen and (max-width: 768px) {
+/* Smaller devices */
+@media screen and (max-width: 420px) {
+    .container {
+        width: 90%;
+        padding: 40px 5%;
+    }
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 40px 5%;
+    }
+}
+
+/* Tablets and Large Phones */
+@media screen and (min-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 40px 5%;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) {
     .container {
         width: 80%;
         padding: 40px 10%;

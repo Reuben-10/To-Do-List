@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.container {
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    width: 600px;
+    margin: 100px auto auto;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.title {
+    color: #002765;
+}
+
+.title h1 {
+    color: #002765;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.title h1 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f0f0f0; 
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+.input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent; 
+    padding: 10px;
+}
+
+.input button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945; 
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    cursor: pointer;
+    position: relative;
+    color: #333; 
+}
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+ul li.checked {
+    color: #777; 
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked.png);
+}
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    transition: background-color 0.3s ease; 
+}
+
+ul li span:hover {
+    background-color: rgba(255, 255, 255, 0.419); 
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 40px 10%;
+    }
+}

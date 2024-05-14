@@ -18,11 +18,11 @@ The JavaScript file drives the functionality of the to-do list application. It f
 
 ## Live Site
 
-The live version of the To-Do List Application can be accessed [here](link_to_live_site).
+The live version of the To-Do List Application can be accessed [here](https://reuben-10.github.io/To-Do-List/).
 
 ## Code
 
-The source code for the To-Do List Application can be found [here](link_to_code_repository).
+The source code for the To-Do List Application can be found [here](https://github.com/Reuben-10/To-Do-List).
 
 
 ## Usage

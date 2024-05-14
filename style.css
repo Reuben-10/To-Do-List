@@ -117,7 +117,7 @@ ul li span:hover {
 /* Smaller devices */
 @media screen and (max-width: 420px) {
     .container {
-        width: 90%;
+        width: 70%;
         padding: 40px 5%;
     }
 }
@@ -127,6 +127,22 @@ ul li span:hover {
     .container {
         width: 90%;
         padding: 40px 5%;
+    }
+
+    .input {
+        flex-direction: column;
+        align-items: flex-start;
+        height: 55px;
+        padding: 10px;
+    }
+
+    .input button {
+        margin-top: 30px;
+        align-self: center;
+    }
+
+    ul{
+        margin-top: 90px;
     }
 }
 
